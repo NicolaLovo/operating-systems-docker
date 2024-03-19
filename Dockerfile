@@ -15,6 +15,3 @@ ENV SHELL /bin/bash
 COPY ./final-src-osc10e .
 
 
-#docker build -t nicolalovo/os:latest .
-#docker push nicolalovo/os:latest
-#docker run -it nicolalovo/os:latest 
