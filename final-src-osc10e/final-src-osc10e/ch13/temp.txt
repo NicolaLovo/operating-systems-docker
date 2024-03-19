@@ -1,0 +1,5 @@
+hi
+
+i will add a new line to tmp.txt
+and then close everything
+
