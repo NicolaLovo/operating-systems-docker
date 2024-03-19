@@ -31,6 +31,12 @@ exit
 docker stop <container_id>
 ```
 
+## Delete container
+
+```bash
+docker rm <container_id>
+```
+
 ## Run container after first time
 
 ### Get container id
