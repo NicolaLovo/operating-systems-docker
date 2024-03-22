@@ -8,6 +8,7 @@ RUN apt-get update && apt install tzdata -y && apt install net-tools vim man fil
 RUN yes| unminimize
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install -y vim perl wget tar man sudo adduser netstat-nat net-tools curl w3m
+RUN apt-get install build-essential -y
 
 
 ENV SHELL /bin/bash
